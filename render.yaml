@@ -4,7 +4,7 @@ services:
     env: python
     plan: free
     region: frankfurt
-    branch: main
+    branch: master    # ← CHANGE THIS FROM main TO master
     rootDir: color-fix-match
 
     buildCommand: pip install -r requirements.txt

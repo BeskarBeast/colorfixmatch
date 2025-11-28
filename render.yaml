@@ -5,6 +5,7 @@ services:
     plan: free
     region: frankfurt
     branch: main
+    rootDir: color-fix-match
 
     buildCommand: |
       python -m pip install --upgrade pip setuptools wheel
